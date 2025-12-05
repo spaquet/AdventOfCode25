@@ -1,5 +1,7 @@
 # Advent of Code 2025 🎄
 
+![Advent of Code with AI](advent_code_ai_festive.png)
+
 Welcome to our Advent of Code 2025 solutions repository! This project contains our solutions to the daily programming challenges from December 1st through December 25th, 2025.
 
 ## Languages
@@ -56,6 +58,10 @@ python solution.py
 | 05  | Cafeteria Inventory | ⭐⭐ | Ruby | ✅ Complete |
 | 06  | TBD | - | - | ⏳ Locked |
 | ... | ... | - | - | ⏳ Locked |
+
+## Articles
+
+📝 Read about this AI-assisted coding experiment: [I Let an AI Solve Advent of Code 2025 — And Here's What It Taught Me About the Future of Coding](https://spaquet.medium.com/i-let-an-ai-solve-advent-of-code-2025-and-heres-what-it-taught-me-about-the-future-of-coding-67239cbd6655)
 
 ## Videos
 
