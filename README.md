@@ -7,7 +7,7 @@ Welcome to our Advent of Code 2025 solutions repository! This project contains o
 ## Languages
 
 We're using **Ruby** and **Python** for our solutions:
-- **Ruby**: Days 1, 2, 5
+- **Ruby**: Days 1, 2, 5, 6
 - **Python**: Days 3, 4
 
 ## Project Structure
@@ -56,7 +56,7 @@ python solution.py
 | 03  | Lobby - Battery Joltage | ⭐⭐ | Python | ✅ Complete |
 | 04  | [Challenge Name] | ⭐⭐ | Python | ✅ Complete |
 | 05  | Cafeteria Inventory | ⭐⭐ | Ruby | ✅ Complete |
-| 06  | TBD | - | - | ⏳ Locked |
+| 06  | Trash Compactor | ⭐⭐ | Ruby | ✅ Complete |
 | ... | ... | - | - | ⏳ Locked |
 
 ## Articles
