@@ -6,9 +6,11 @@ Welcome to our Advent of Code 2025 solutions repository! This project contains o
 
 ## Languages
 
-We're using **Ruby** and **Python** for our solutions:
-- **Ruby**: Days 1, 2, 5, 6
+We're using **Ruby**, **Python**, and **Rust** for our solutions:
+
+- **Ruby**: Days 1, 2, 5, 6, 7, 8, 9, 10, 11, 12
 - **Python**: Days 3, 4
+- **Rust**: Day 12
 
 ## Project Structure
 
@@ -18,46 +20,63 @@ adventOfCode25/
 ├── LICENSE
 ├── .gitignore
 ├── day01/
+├── ...
+├── day12/
+│   ├── Cargo.toml
+│   ├── src/
 │   ├── README.md
 │   ├── input.txt
 │   ├── example.txt
 │   └── solution.rb
-├── day02/
-│   └── ...
 └── ...
 ```
 
 Each day's challenge has its own directory containing:
+
 - `README.md` - The day's challenge description
 - `input.txt` - Your personal puzzle input
 - `example.txt` - Example input from the challenge description
-- `solution.rb` or `solution.py` - Solution implementation
+- `solution.rb`, `solution.py`, or Rust project - Solution implementation
 
 ## Running Solutions
 
 To run a Ruby solution:
+
 ```bash
 cd dayXX
 ruby solution.rb
 ```
 
 To run a Python solution:
+
 ```bash
 cd dayXX
 python solution.py
 ```
 
+To run a Rust solution:
+
+```bash
+cd dayXX
+cargo run --release
+```
+
 ## Progress
 
-| Day | Challenge | Stars | Language | Status |
-|-----|-----------|-------|----------|--------|
-| 01  | Safe Dial Password | ⭐⭐ | Ruby | ✅ Complete |
-| 02  | Gift Shop - Invalid Product IDs | ⭐⭐ | Ruby | ✅ Complete |
-| 03  | Lobby - Battery Joltage | ⭐⭐ | Python | ✅ Complete |
-| 04  | [Challenge Name] | ⭐⭐ | Python | ✅ Complete |
-| 05  | Cafeteria Inventory | ⭐⭐ | Ruby | ✅ Complete |
-| 06  | Trash Compactor | ⭐⭐ | Ruby | ✅ Complete |
-| ... | ... | - | - | ⏳ Locked |
+| Day | Challenge                              | Stars | Language   | Status      |
+| --- | -------------------------------------- | ----- | ---------- | ----------- |
+| 01  | Safe Dial Password                     | ⭐⭐  | Ruby       | ✅ Complete |
+| 02  | Gift Shop - Invalid Product IDs        | ⭐⭐  | Ruby       | ✅ Complete |
+| 03  | Lobby - Battery Joltage                | ⭐⭐  | Python     | ✅ Complete |
+| 04  | [Challenge Name]                       | ⭐⭐  | Python     | ✅ Complete |
+| 05  | Cafeteria Inventory                    | ⭐⭐  | Ruby       | ✅ Complete |
+| 06  | Trash Compactor                        | ⭐⭐  | Ruby       | ✅ Complete |
+| 07  | Laboratories                           | ⭐⭐  | Ruby       | ✅ Complete |
+| 08  | Ambitious Christmas Decoration Project | ⭐⭐  | Ruby       | ✅ Complete |
+| 09  | Movie Theater                          | ⭐⭐  | Ruby       | ✅ Complete |
+| 10  | Factory                                | ⭐⭐  | Ruby       | ✅ Complete |
+| 11  | Reactor                                | ⭐⭐  | Ruby       | ✅ Complete |
+| 12  | Christmas Tree Farm                    | ⭐⭐  | Ruby, Rust | ✅ Complete |
 
 ## Articles
 
@@ -73,4 +92,4 @@ python solution.py
 
 ---
 
-*Good luck and happy coding! 🎅*
+_Good luck and happy coding! 🎅_
