@@ -57,7 +57,7 @@ python solution.py
 To run a Rust solution:
 
 ```bash
-cd dayXX
+cd day12
 cargo run --release
 ```
 
